@@ -1,4 +1,4 @@
-from app import add,subtract
+from app import add,sub
 import unittest
 
 class TestApp(unittest.TestCase):
