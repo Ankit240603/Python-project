@@ -7,4 +7,5 @@ class TestApp(unittest.TestCase):
     def test_sub(self):
       return self.assertEqual(add(5,3),2,"Should be 2")
 
-unittest.main()
+if __name__=="__main__":
+    unittest.main()
